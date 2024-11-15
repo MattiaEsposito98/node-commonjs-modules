@@ -1,8 +1,12 @@
-function nome (firstName, lastName) {
-  const user = { name: firstName,
+function persona (firstName, lastName) {
+  const user = { 
+    name: firstName,
     surname: lastName
   }
   return user
 }
 
-console.log (nome('Mattia','Esposito'))
+console.log (persona('Mattia','Esposito'))
+
+
+module.exports = persona
